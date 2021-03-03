@@ -6,12 +6,22 @@
 body .top{
     background-image: url('p-pics/h_img.jpg');
     background-size: cover;
+    background-position: center;
     height: 100vh;
-    display: inline;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    padding-top: 188px;
 }
 .text{
     color: white;
 }
 .text-1, .text-2{
-    font-size: 40px;
+    font-size: 50px;
 }
