@@ -47,3 +47,20 @@ body .text{
     line-height: 2;
     text-align: center;
 }
+.icon-1, .icon-2,.icon-3{
+    flex: 40%;
+    padding: 30px;
+}
+.icons{
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+    text-align: center;
+}
+.section-3{
+    text-align: center;
+    line-height: 2;
+}
+.images{
+    text-align: center;
+}
