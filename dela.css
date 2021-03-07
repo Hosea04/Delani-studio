@@ -64,3 +64,35 @@ body .text{
 .images{
     text-align: center;
 }
+.contact{
+    background-image: url('p-pics/c_image.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.25s ease;
+    background-color: none;
+}
+.img-1:hover .overlay{
+    opacity: 1;
+}
+.delani{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
