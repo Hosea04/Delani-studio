@@ -12,14 +12,13 @@ body .content{
     background-image: url('p-pics/h_img.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
     text-align: center;
-   
 }
 body .text{
     color: white;
@@ -41,9 +40,10 @@ body .text{
 }
 .services{
     background-image: url('p-pics/s_image.jpg');
-    color: azure;
+    background-size: cover;
+    width: 190vh;
+    color: white;
     padding: 25px;
-    margin: 70px;
     line-height: 2;
     text-align: center;
 }
